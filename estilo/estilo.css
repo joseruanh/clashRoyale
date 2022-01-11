@@ -43,7 +43,7 @@ header > h1
 main
 {
     padding-top: 10px;
-    width: 100vw;
+    max-width: 100%;
 }
 
 #img1
@@ -127,7 +127,7 @@ div#deckArea > img
 
 .imagemP
 {
-    width: 100%;
+    width: 100vw;
     height: 600px;
     background-image: url('bg.jpg');
 
