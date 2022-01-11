@@ -24,7 +24,7 @@ body
 
 header
 {
-    width: 95vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +48,7 @@ main
 
 #img1
 {
-    max-width: 550px;
+    max-width: 350px;
     border-radius: 10px;
 }
 
