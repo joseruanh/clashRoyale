@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{margin: 0; padding: 0; font-family: 'Raleway', sans-serif;}
+
+
+
+
+:root
+{
+    --fonte1: 'Raleway';
+    --corMain: rgb(0, 0, 41);
+    --cor1: #F02416;
+    --cor2: #A3281F;
+    --cor3: #DAF02E;
+    --cor4: #0754A3;
+    --cor5: #2E8DF0;
+}
+
+body
+{
+    background-color: rgb(0, 0, 41);
+
+}
+
+header
+{
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 15px 30px 15px 30px;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.371);
+}
+header > h1
+{
+    font-size: 20px;
+    font-family: arial;
+}
+
+main
+{
+    padding-top: 10px;
+    width: 100vw;
+}
+
+#img1
+{
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+.info
+{
+    max-width: 600px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+
+div#javaB
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+div#javaB > button
+{
+    margin-right: 10px;
+    width: 200px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    box-shadow: 0px 2px 0px white;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+div#javaB > button:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    
+}
+
+div#res
+{
+    text-align: center;
+}
+
+div#deckArea
+{
+    text-align: center;
+    width: 450px;
+}
+div#deckArea > img
+{
+    width: 100px;
+}
+
+
+
+.imagemP
+{
+    width: 100%;
+    height: 600px;
+    background-image: url('bg.jpg');
+
+
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center center;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(0, 0, 14);
+   
+}
+
+div.f1
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid rgba(255, 255, 255, 0.338);
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+
+}
+
+div#f1img
+{
+    background-image: url("../image/footer1.png");
+    background-size: cover;
+}
+
+div#f2img
+{
+    background-image: url("../image/footer2.png");
+    background-size: cover;
+}
+
+div#f3img
+{
+    background-image: url("../image/footer3.png");
+    background-size: cover;
+}
